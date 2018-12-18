@@ -14,6 +14,18 @@ Our project is system for managing a super shop, which dynamically handles all t
 <li>Stores(productid,branchId,numberofproducts)</li>
 <li>Got(paymentno,productid,noOfProducts)</li>
 <li>Payment(paymentno,branchid,total,paymentdate)</li>
+<h3>Fragmentation Schema:</h3>
+<li>Employee1=SLbranchid=1(Employee)</li>
+<li>Employee2=SLbranchid!=1(Employee)</li>
+<li>Stores1= SLbranchid=1Pjproductid,branched,numberOfProducts(Stores)</li>
+<li>Stores2= SLbranchid!=1Pjproductid,branched,numberOfProducts(Stores)</li>
+<li>Branch1= SLbranchid!=1 (Branch)</li>
+<li>Branch2= SLbranchid=1 (Branch)</li>
+<li>Payment1= SLbranchid!=1 (Payment)</li>
+<li>Payment2= SLbranchid=1 (Payment)</li>
+<h3>Allocation Schema:</h3>
+<li>Site1(Host): Stores1,Product,Branch1,Employee1,Payment1,Got</li>
+<li>Site2: Stores2,Branch2,Employee2,Payment2</li>
 
 <h3>Features:</h3>
 <li>Search Product by Product Id</li>
