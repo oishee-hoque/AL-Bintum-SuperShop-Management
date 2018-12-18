@@ -4,7 +4,7 @@
 <h3>Overview of the system</h3>
 Our project is system for managing a super shop, which dynamically handles all the data. This super shop management system meticulously handles all the aspects related to the shop, i.e. sales, staff information, branch details and product availability. As the database is distributed to multiple sites, the risk of losing data due is loss in site is reduced and the system is improved.
 
-<img src = "https://github.com/Oishee30/AL-Bintum-SuperShop-Management/Feature.jpg">
+<img src = "https://github.com/Oishee30/AL-Bintum-SuperShop-Management/blob/master/Feature.PNG">
 
 
 <h3>Global Relations:</h3>
