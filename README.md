@@ -1,5 +1,5 @@
 # AL-Bintum-SuperShop-Management
-<h3> Distributed Database System | PL/SQL </h3>
+<h3> Distributed Database Management System | PL/SQL </h3>
 
 <h3>Overview of the system</h3>
 Our project is system for managing a super shop, which dynamically handles all the data. This super shop management system meticulously handles all the aspects related to the shop, i.e. sales, staff information, branch details and product availability. As the database is distributed to multiple sites, the risk of losing data due is loss in site is reduced and the system is improved.
